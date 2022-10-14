@@ -7,10 +7,8 @@
 
 .header{
     position: fixed;
-    left: 35%;
-    background-color: blue;
-    height: 220px;
-    width: 800px;
+    height: 70px;
+    width: 100%;
     display: block;
 }
 
@@ -21,8 +19,26 @@ h1{
     font-size: 4em;
 }
 
-p{
-    margin-left: 9px;
-    font-family: "Noto serif";
+.corpo{
+    margin-top: 20px;
+    margin-left: 27%;
+    width: 1000px;
     display: block;
+    display: table;
+}
+
+img{
+    display: table-cell;
+    float: left;
+    height: 300px;
+    margin-left: 30px;
+}
+
+p{
+    margin-top: 70px;
+    margin-left: 40px;
+    display: table-cell;
+    float: left;
+    width: 600px;
+    font-family: "Noto serif";
 }
