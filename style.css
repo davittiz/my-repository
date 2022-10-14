@@ -9,16 +9,20 @@
     position: fixed;
     left: 35%;
     background-color: blue;
-    height: 260px;
-    width: 700px;
+    height: 220px;
+    width: 800px;
+    display: block;
 }
 
 h1{
+    line-height: 70px;
+    text-align: center;
     font-family: 'Poppins';
     font-size: 4em;
 }
 
 p{
+    margin-left: 9px;
     font-family: "Noto serif";
-    display: contents;
+    display: block;
 }
