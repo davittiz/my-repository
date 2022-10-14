@@ -14,30 +14,33 @@ body{
 
 .conteudo{
     height: 70px;
-    width: 620px;
+    width: 700px;
     position: fixed;
-    top: calc(50% - 150px);
+    top: calc(50% - 200px);
     left: calc(50% - 700px);
 }
 
 .social{
     width: 340px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 170px;
 }
 
 .social i{
     color: #A6A6A6;
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 15px;
-    text-align: center;
 }
 
 h1{
     color: white;
     line-height: 70px;
     font-family: 'Poppins';
-    font-size: 4em;
+    font-size: 5em;
+}
+
+p{
+    margin-top: 15px;
+    color: #f0f8ff88;
+    font-size: 15px;
+    font-family: 'Noto serif';
 }
