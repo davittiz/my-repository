@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    left: 35%;
+    background-color: blue;
+    height: 260px;
+    width: 700px;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size: 4em;
+}
+
+p{
+    font-family: "Noto serif";
+    display: contents;
+}
