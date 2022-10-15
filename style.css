@@ -14,31 +14,46 @@ body{
 .header{
     background-color: rgb(15, 125, 125);
     height: 6vh;
-    width: 1400px;
+    width: 1690px;
     position: fixed;
     top: calc(50% - 420px);
-    left: calc(50% - 700px);
+    left: calc(100% - 1700px);
+}
+
+.header h2{
+    color: white;
+    
+    font-family: 'poppins';
 }
 
 .header button{
-    background-color: rgba(0, 0, 0, 0.241);
+    color: rgba(255, 255, 255, 0.773);
+    background-color: rgba(0, 0, 0, 0.092);
     border: none;
-    border-radius: 20%;
-    font-family: 'Poppins';
+    border-radius: 5px;
+    font-family: 'Noto Serif';
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+    display: inline;
 }
 
 .header a{
     color: white;
+    margin-bottom: 100px;
+    position: fixed;
+    bottom: calc(50% - 6600px);
 }
 
-.quadrado{
+/*.quadrado{
     background-color: #0000002c;
     height: 90%;
     width: 90%;
     position: fixed;
     top: calc(50% - 300px);
     left: calc(50% - 765px);
-}
+}*/
 
 .conteudo{
     height: 70px;
@@ -50,6 +65,9 @@ body{
 
 .social{
     width: 340px;
+    position: fixed;
+    top: calc(100% - 50px);
+    left: calc(50% - 700px);
 }
 
 .social i{
