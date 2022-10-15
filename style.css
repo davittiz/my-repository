@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,700;1,800&display=swap');
 
 *{
-    margin: 0;
     padding: 0;
 }
 
@@ -10,6 +9,35 @@ body{
     margin: 0px;
     width: 100vw;
     height: 100vh;
+}
+
+.header{
+    background-color: rgb(15, 125, 125);
+    height: 6vh;
+    width: 1400px;
+    position: fixed;
+    top: calc(50% - 420px);
+    left: calc(50% - 700px);
+}
+
+.header button{
+    background-color: rgba(0, 0, 0, 0.241);
+    border: none;
+    border-radius: 20%;
+    font-family: 'Poppins';
+}
+
+.header a{
+    color: white;
+}
+
+.quadrado{
+    background-color: #0000002c;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    top: calc(50% - 300px);
+    left: calc(50% - 765px);
 }
 
 .conteudo{
@@ -26,8 +54,7 @@ body{
 
 .social i{
     color: #A6A6A6;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 25px;  
     margin-left: 15px;
 }
 
@@ -35,12 +62,13 @@ h1{
     color: white;
     line-height: 70px;
     font-family: 'Poppins';
-    font-size: 5em;
+    font-size: 4em;
+    margin-bottom: 5px;
 }
 
 p{
-    margin-top: 15px;
+    margin-top: 0px;
     color: #f0f8ff88;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: 'Noto serif';
 }
